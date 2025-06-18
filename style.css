@@ -1,39 +1,26 @@
 body {
   font-family: Arial, sans-serif;
-  margin: 0;
-  background-color: #cab89d;
-  color: #333;
-  line-height: 1.6;
+  background-color: white;
+  color: black;
+  text-align: center;
+  padding-top: 100px;
+  transition: background 0.3s, color 0.3s;
 }
 
-header {
-  background-color: #eeb866;
+body.dark {
+  background-color: #121212;
   color: white;
-  padding: 50px 20px;
-  text-align: center;
 }
 
-section {
-  padding: 40px 20px;
-  max-width: 800px;
-  margin: auto;
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 40px;
 }
 
-.projects .project {
-  background: #fff;
-  margin-bottom: 20px;
-  padding: 20px;
-  border-left: 5px solid #3498db;
-}
-
-a {
-  color: #3498db;
-  text-decoration: none;
-}
-
-footer {
-  text-align: center;
-  padding: 20px;
-  background-color: #eee;
-  font-size: 14px;
+#klokke {
+  font-size: 48px;
+  font-family: monospace;
+  color: limegreen;
 }

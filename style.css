@@ -10,6 +10,7 @@ body {
 body.dark {
   background-color: #121212;
   color: white;
+  background-color: black;
 }
 
 button {
@@ -22,5 +23,5 @@ button {
 #klokke {
   font-size: 48px;
   font-family: monospace;
-  color: limegreen;
+  color: gray;
 }

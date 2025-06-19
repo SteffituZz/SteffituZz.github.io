@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8">
+  <title>Prosjekt Middels</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="sidebar">
+    <h2>📜 Meny</h2>
+    <button class="menu-button" onclick="showContent('reise')">🧭 Reise</button>
+    <button class="menu-button" onclick="showContent('smajobber')">💼 Småjobber</button>
+    <button class="menu-button" onclick="showContent('kriminalitet')">🕵️‍♂️ Kriminalitet</button>
+    <button class="menu-button">⚙️ Innstillinger</button>
+  </div>
+
+  <div class="main">
+    <h1>🛡️ Prosjekt Middels</h1>
+    <div class="log-box" id="content">
+      <p><em>Velkommen! Velg noe fra menyen til venstre for å begynne.</em></p>
+    </div>
+  </div>
+
+  <div class="profile">
+    <h2>👤 Profil</h2>
+    <div class="profile-info">
+      <p><strong>Navn:</strong> Ukjent</p>
+      <div class="avatar">🧙</div>
+      <p><strong>Landsby:</strong> placeholder</p>
+      <p><strong>XP:</strong> <span id="xp">0</span></p>
+      <p><strong>Gull:</strong> <span id="gold">0</span></p>
+      <p><strong>Rang (lov):</strong> placeholder</p>
+      <p><strong>Rang (krim):</strong> placeholder</p>
+      <p><strong>Våpen:</strong> Ingen</p>
+      <p><strong>Rustning:</strong> Ingen</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
